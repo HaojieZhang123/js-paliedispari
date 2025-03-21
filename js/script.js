@@ -53,7 +53,7 @@ function isSumEven(number1, number2) {
     return isEven;
 }
 
-if (isSumEven(userNumber, computerNumber)) {
+if ((isSumEven(userNumber, computerNumber) && userChoice === 'pari') || (!isSumEven(userNumber, computerNumber) && userChoice === 'dispari')) {
     console.log('Hai vinto');
 } else {
     console.log('Hai perso');
