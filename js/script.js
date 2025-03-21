@@ -42,3 +42,14 @@ function getRandomNumber(min, max){
 
 let computerNumber = getRandomNumber(1, 5);
 console.log('Il computer ha scelto: ' + computerNumber);
+
+// Funzione per sommare i due numeri e stabilire se somma e' pari o dispari
+function isSumEven(number1, number2) {
+    let sum = number1 + number2;
+    let isEven= false;
+    if (sum % 2 == 0) {
+        isEven = true;
+    }
+    return isEven;
+}
+
