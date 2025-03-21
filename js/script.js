@@ -31,3 +31,6 @@ isPalindrome(word);
 // L'utente sceglie pari o dispari
 let userChoice = prompt('Scegli pari o dispari').toLowerCase();
 console.log('Hai scelto: ' + userChoice);
+// L'utente inserisce un numero da 1 a 5
+let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5'));
+console.log('Hai scelto: ' + userNumber);
