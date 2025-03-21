@@ -53,3 +53,8 @@ function isSumEven(number1, number2) {
     return isEven;
 }
 
+if (isSumEven(userNumber, computerNumber)) {
+    console.log('Hai vinto');
+} else {
+    console.log('Hai perso');
+}
