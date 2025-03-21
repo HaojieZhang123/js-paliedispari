@@ -34,3 +34,11 @@ console.log('Hai scelto: ' + userChoice);
 // L'utente inserisce un numero da 1 a 5
 let userNumber = parseInt(prompt('Inserisci un numero da 1 a 5'));
 console.log('Hai scelto: ' + userNumber);
+
+// Funzione per generare un numero random da 1 a 5
+function getRandomNumber(min, max){
+    return Math.floor(Math.random() * (max - min + 1) + min);
+}
+
+let computerNumber = getRandomNumber(1, 5);
+console.log('Il computer ha scelto: ' + computerNumber);
